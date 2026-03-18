@@ -1,0 +1,37 @@
+{
+  "name": "claude-rpg",
+  "version": "0.1.0",
+  "description": "RPG gamification for Claude Code — earn XP, level up, and collect loot while coding",
+  "type": "module",
+  "bin": {
+    "claude-rpg": "./bin/claude-rpg.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "commands"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsemih/claude-rpg.git"
+  },
+  "homepage": "https://github.com/devsemih/claude-rpg",
+  "bugs": {
+    "url": "https://github.com/devsemih/claude-rpg/issues"
+  },
+  "author": "devsemih",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "rpg",
+    "gamification",
+    "xp",
+    "leveling",
+    "developer-tools",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
