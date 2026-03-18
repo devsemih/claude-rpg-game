@@ -23,6 +23,8 @@ switch (command) {
     break;
   }
 
+  case 'character':
+  case 'char':
   case 'status':
   case undefined: {
     process.stdout.write(showStatus());
@@ -40,15 +42,19 @@ switch (command) {
 
   case 'equip': {
     const name = process.argv.slice(3).join(' ');
-    if (!name) { console.log('Usage: claude-rpg equip <item name>'); break; }
-    console.log(equipItem(name).message);
+    if (!name) { console.log('Usage: rpg equip <#|name>'); break; }
+    const eqResult = equipItem(name);
+    console.log(eqResult.message);
+    if (eqResult.success) process.stdout.write(showStatus());
     break;
   }
 
   case 'unequip': {
     const slot = process.argv[3];
-    if (!slot) { console.log('Usage: claude-rpg unequip <slot>'); break; }
-    console.log(unequipSlot(slot).message);
+    if (!slot) { console.log('Usage: rpg unequip <#|slot>'); break; }
+    const unResult = unequipSlot(slot);
+    console.log(unResult.message);
+    if (unResult.success) process.stdout.write(showStatus());
     break;
   }
 

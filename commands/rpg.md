@@ -1,12 +1,12 @@
 ---
 name: rpg
 description: View your RPG character status, inventory, quests, and equipment
-argument-hint: [status | inventory | equip <name> | unequip <slot> | quests | daily | history | help]
+argument-hint: [character | inventory | equip <#> | unequip <#> | quests | daily | history | help]
 ---
 
 Run the appropriate `claude-rpg` command based on the user's input and show the exact output:
 
-- No args or "status": `claude-rpg status`
+- No args, "character", "char", or "status": `claude-rpg character`
 - "inventory" or "inv": `claude-rpg inventory`
 - "equip <item name>": `claude-rpg equip "<item name>"`
 - "unequip <slot>": `claude-rpg unequip "<slot>"`

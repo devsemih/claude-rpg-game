@@ -63,7 +63,7 @@ Then restart Claude Code. That's it.
 Inside Claude Code:
 
 ```
-/rpg                  Character status
+/rpg                  Character sheet
 /rpg inventory        View your loot
 /rpg equip <#|name>   Equip an item by slot number or name
 /rpg unequip <#|slot> Unequip by slot number or name
@@ -75,7 +75,7 @@ Inside Claude Code:
 Or directly from terminal:
 
 ```bash
-rpg status
+rpg character
 rpg inventory
 rpg equip 1
 rpg unequip 6

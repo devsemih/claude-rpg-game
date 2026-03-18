@@ -199,7 +199,7 @@ export function showHistory() {
 export function showHelp() {
   let o = '\n\u{2694}\u{FE0F} Claude RPG \u{2014} Commands\n';
   o += '\u{2501}'.repeat(34) + '\n';
-  o += '  /rpg              Character status\n';
+  o += '  /rpg              Character sheet\n';
   o += '  /rpg inventory    View inventory\n';
   o += '  /rpg equip <name> Equip an item\n';
   o += '  /rpg unequip <slot> Unequip a slot\n';
