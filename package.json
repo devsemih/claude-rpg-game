@@ -4,6 +4,7 @@
   "description": "RPG gamification for Claude Code — earn XP, level up, and collect loot while coding",
   "type": "module",
   "bin": {
+    "rpg": "./bin/claude-rpg.mjs",
     "claude-rpg": "./bin/claude-rpg.mjs"
   },
   "files": [
