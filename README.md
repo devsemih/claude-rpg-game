@@ -48,7 +48,7 @@ Claude never sees the RPG system. It doesn't consume tokens or slow down your wo
 
 ```bash
 npm install -g claude-rpg-game
-claude-rpg install
+rpg install
 ```
 
 Then restart Claude Code. That's it.
@@ -75,13 +75,13 @@ Inside Claude Code:
 Or directly from terminal:
 
 ```bash
-claude-rpg status
-claude-rpg inventory
-claude-rpg equip 1
-claude-rpg unequip 6
-claude-rpg quests
-claude-rpg daily
-claude-rpg history
+rpg status
+rpg inventory
+rpg equip 1
+rpg unequip 6
+rpg quests
+rpg daily
+rpg history
 ```
 
 ## Dynamic Class System
@@ -161,7 +161,7 @@ Code on consecutive days to build a streak. Each day adds +2% XP bonus, up to +2
 ## Uninstall
 
 ```bash
-claude-rpg uninstall
+rpg uninstall
 npm uninstall -g claude-rpg-game
 ```
 
