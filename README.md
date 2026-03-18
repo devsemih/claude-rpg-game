@@ -47,7 +47,7 @@ Claude never sees the RPG system. It doesn't consume tokens or slow down your wo
 ## Install
 
 ```bash
-npm install -g claude-rpg
+npm install -g claude-rpg-game
 claude-rpg install
 ```
 
@@ -162,7 +162,7 @@ Code on consecutive days to build a streak. Each day adds +2% XP bonus, up to +2
 
 ```bash
 claude-rpg uninstall
-npm uninstall -g claude-rpg
+npm uninstall -g claude-rpg-game
 ```
 
 Your save data stays in `~/.claude-rpg/` — delete it manually if you want a fresh start.
